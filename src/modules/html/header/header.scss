@@ -1,0 +1,13 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+#header{
+	background: $brand-yellow;
+	height: 100px;
+	ul{
+		li{
+			display: inline-block;
+			font-family: $font-family-more;
+		}
+	}
+}
